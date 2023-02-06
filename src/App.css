@@ -1,0 +1,28 @@
+.game{
+  width: 622 px;
+}
+.box{
+  width: 100px;
+  height: 100px;
+  border: solid black 1px;
+  float : left;
+  box-sizing: border-box;
+  font-size: 50px;
+  line-height: 100px;
+  text-align: center;
+  font-weight: 700;
+}
+.box-wrap{
+  width: 300px;
+  height: 300px;
+  border: solid black 1px;
+  float: left;
+}
+.history{
+  width: 300px;
+  height: 10px;
+  float: left;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+

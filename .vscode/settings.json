@@ -1,0 +1,23 @@
+{
+    "terminal.integrated.profiles.windows": {
+        "gitBash": {
+            "path": "D:\\Git\\bin\\bash.exe", //本地bash程序的路径
+        },
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "gitBash"
+}
